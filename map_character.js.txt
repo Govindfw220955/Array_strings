@@ -1,0 +1,8 @@
+  let str=["abcde"];
+let N=5;
+     let obj={};
+    for (i=1; i<=N; i++){
+       obj[i]=str[i]+(i-1);
+        console.log(obj[str[i]]+"-"+i);
+    
+}
