@@ -1,8 +1,10 @@
-  let str=["abcde"];
-let N=5;
+ let lower="abcdefghijklmnopqrstuvwxyz";
      let obj={};
-    for (i=1; i<=N; i++){
-       obj[i]=str[i]+(i-1);
-        console.log(obj[str[i]]+"-"+i);
+    for (i=0; i<=N-1; i++){
+       obj[lower[i]]=(i+1);
+    } 
+        for(let key in obj){
+            console.log(key+"-"+obj[key]);
+        }
+        
     
-}
